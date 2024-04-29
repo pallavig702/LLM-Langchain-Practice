@@ -1,3 +1,10 @@
+! pip install langchain
+##! pip install huggingface_hub
+! pip install openai
+!pip install langchain-openai
+! pip install streamlit
+! pip install python-dotenv
+
 from langchain_openai import ChatOpenAI
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.output_parsers import StrOutputParser
